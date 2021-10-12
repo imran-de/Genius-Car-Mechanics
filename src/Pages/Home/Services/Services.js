@@ -12,8 +12,8 @@ const Services = () => {
     }, [])
     return (
         <>
-            <h2 className="my-5 text-primary"><img src={servicesIcon} alt="" /> Our Services</h2>
-            <div className="service-container">
+            <h1 className="my-5 text-secondary text-uppercase"><img src={servicesIcon} alt="" /> Our Services</h1>
+            <div className="service-container container px-lg-5">
                 {
                     services?.map((service) => <Service key={services?.id} service={service}></Service>)
                 }
