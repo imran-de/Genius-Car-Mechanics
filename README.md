@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# genius-car-mechanics template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was react library. Live site: [genius-car-mechanics](https://st-genius-car-mechanics.netlify.app/).
 
 ## Available Scripts
 - Bootstrap v5.x cdn
