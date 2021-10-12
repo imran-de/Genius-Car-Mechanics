@@ -1,4 +1,5 @@
 import React from 'react';
+import flogo from "../../../images/logo.png"
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <div className="container py-3">
                 <div className="row text-light">
                     <div className="col-md-4">
-                        <h4>Genius Car Mechanics</h4>
+                        <img src={flogo} alt="" />
                         <p>Rose Avenue, Modda badda <br /> Dhaka-3100</p>
                         <p>Phone: +8801926294263</p>
                     </div>
